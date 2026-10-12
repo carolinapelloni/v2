@@ -1,0 +1,98 @@
+
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Contatta Atelier Ingegnera e prenota una consulenza.">
+  <title>Contatti — Atelier Ingegnera</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="main.js" defer></script>
+</head>
+<body>
+<header class="site-header">
+  <a class="brand" href="index.html"><span class="brand-symbol">A<span>.</span></span><span class="brand-name">ATELIER INGEGNERA<small>INGEGNERIA · PROGETTAZIONE</small></span></a>
+  <button class="menu-toggle" aria-expanded="false" aria-controls="main-nav" aria-label="Apri il menu"><span></span><span></span><span class="menu-label">MENU</span></button>
+  <nav class="main-nav" id="main-nav" aria-label="Menu principale">
+    <a href="index.html">Home</a><a href="lavori.html">Progetti <sup>03</sup></a><a href="servizi.html">Attività</a><a class="nav-contact" href="contatti.html" aria-current="page">Parliamone <span>↗</span></a>
+  </nav>
+</header>
+
+<main>
+  <section class="page-hero container">
+    <p class="eyebrow">03 / CONTATTI</p>
+    <h1>Il prossimo passo<br>inizia con un <em>ciao.</em></h1>
+    <p class="page-lead">Hai un progetto, una domanda o un'idea da sviluppare? Raccontamela. Troveremo il modo migliore per darle forma.</p>
+  </section>
+
+  <section class="container contact-layout">
+    <aside class="contact-aside">
+      <p class="eyebrow">PARLIAMONE</p>
+      <h2>Mettiamo a fuoco la tua idea.</h2>
+      <p>Scrivimi qualche dettaglio: obiettivo, contesto e tempistiche. Mi aiuterà a capire come posso esserti utile.</p>
+
+      <div class="contact-detail">
+        <span>EMAIL</span>
+        <a href="mailto:ciao@tuodominio.it">ciao@tuodominio.it ↗</a>
+      </div>
+      <div class="contact-detail">
+        <span>CONSULENZE</span>
+        <p>Su appuntamento · Online o in presenza</p>
+      </div>
+      <div class="contact-note">
+        <span class="status-dot"></span>
+        Un buon progetto inizia da una buona conversazione.
+      </div>
+    </aside>
+
+    <form class="contact-form" id="contact-form" data-mailto="ciao@tuodominio.it">
+      <div class="form-heading">
+        <span class="eyebrow">SCRIVIMI UN MESSAGGIO</span>
+        <span class="form-index">FORM / 001</span>
+      </div>
+
+      <div class="form-field">
+        <label for="name">Nome e cognome</label>
+        <input id="name" name="nome" autocomplete="name" placeholder="Il tuo nome" required>
+      </div>
+
+      <div class="form-field">
+        <label for="email">Indirizzo email</label>
+        <input id="email" name="email" type="email" autocomplete="email" placeholder="nome@email.it" required>
+      </div>
+
+      <div class="form-field">
+        <label for="subject">Come posso aiutarti?</label>
+        <select id="subject" name="argomento">
+          <option value="Richiesta informazioni">Richiesta informazioni</option>
+          <option value="Prenotazione consulenza">Prenotazione consulenza</option>
+          <option value="Proposta di collaborazione">Proposta di collaborazione</option>
+          <option value="Progetto personalizzato">Progetto personalizzato</option>
+        </select>
+      </div>
+
+      <div class="form-field">
+        <label for="message">Raccontami il tuo progetto</label>
+        <textarea id="message" name="messaggio" rows="5" placeholder="Da dove partiamo?" required></textarea>
+      </div>
+
+      <button class="button button-dark submit-button" type="submit">
+        Prepara il messaggio <span>↗</span>
+      </button>
+
+      <p class="form-privacy">
+        Il sito non invia né archivia i dati. Il pulsante apre il tuo programma email
+        con il messaggio già preparato.
+      </p>
+    </form>
+  </section>
+</main>
+
+<footer class="site-footer container">
+  <a class="brand footer-brand" href="index.html"><span class="brand-symbol">A<span>.</span></span><span class="brand-name">ATELIER INGEGNERA<small>INGEGNERIA · PROGETTAZIONE</small></span></a>
+  <p>Le idee sono solo l'inizio.</p>
+  <div class="footer-links"><a href="lavori.html">Progetti</a><a href="servizi.html">Attività</a><a href="contatti.html">Contatti</a></div>
+  <span class="copyright">© <span data-year>2026</span> · Tutti i diritti riservati</span>
+</footer>
+</body>
+</html>
